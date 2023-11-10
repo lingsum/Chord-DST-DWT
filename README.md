@@ -1,1 +1,4 @@
 # Chord-DST-DWT
+Project: The Performance of  DST-Wavelet Feature Extraction for Guitar Chord Recognition.
+Software: Python.
+Dataset: The dataset comprises two-second signal data captured in WAV format, encompassing seven guitar chords (C, D, E, F, G, A, and B). Upon visually inspecting the signal data, it was found that a two-second recording adequately captures the steady-state portion of the signal, where the chord information predominantly resides. The recordings were conducted at a sampling frequency of 5 kHz, adhering to Shannon's sampling theorem, which stipulates that the sampling frequency should be at least twice the highest frequency component of the signal. In this context, the highest frequency component is 392 Hz, corresponding to the G4 note, a subset of the G chord. Notably, the recordings were performed using a Yamaha CPX-500-II guitar.
