@@ -1,0 +1,334 @@
+Test Results
+============
+runfile('D:/Data/Research/2023/bgdstdwtfix.py', wdir='D:/Data/Research/2023')
+
+DST cutting factor: 1, 0.5, 0.25
+Wavelet filters: db1 ... db6, bior1.1, bior1.3, bior1.5
+                 bior2.2, bior2.4, bior2.6,
+		 bior3.1, bior3.3, bior3.5,
+Remarks:
+(a) WaveFilter: Wavelet Filter
+    FrameLength: Frame Blocking Length
+(b) Accuracy: Accuracy results. From left to right, they correspond to
+    the number of feature extraction coefficients (1..8)
+
+-----------------------------------------------------------------------------------
+DSTCuttingFactor = 1.0 , WaveFilter =  db1
+FrameLength =   128 , Accuracy =  [14.29 37.14 46.43 62.86 60.00 63.57 70.00 70.00]
+FrameLength =   256 , Accuracy =  [14.29 61.43 70.71 80.71 83.57 89.29 94.29 94.29]
+FrameLength =   512 , Accuracy =  [14.29 49.29 73.57 80.00 87.14 87.14 90.00 90.00]
+FrameLength =  1024 , Accuracy =  [14.29 43.57 61.43 67.14 70.71 82.14 87.14 90.71]
+FrameLength =  2048 , Accuracy =  [14.29 50.00 65.00 70.71 72.14 75.71 85.00 85.71]
+
+DSTCuttingFactor = 1.0 , WaveFilter =  db2
+FrameLength =   128 , Accuracy =  [14.29 34.29 63.57 67.86 60.00 65.71 67.86 72.86]
+FrameLength =   256 , Accuracy =  [14.29 49.29 61.43 70.71 71.43 80.71 92.86 93.57]
+FrameLength =   512 , Accuracy =  [14.29 59.29 82.86 82.86 64.29 76.43 76.43 79.29]
+FrameLength =  1024 , Accuracy =  [14.29 40.00 65.00 75.71 80.00 89.29 95.71 95.71]
+FrameLength =  2048 , Accuracy =  [14.29 30.71 65.71 70.71 75.71 80.71 83.57 84.29]
+
+DSTCuttingFactor = 1.0 , WaveFilter =  db3
+FrameLength =   128 , Accuracy =  [14.29 40.71 43.57 45.71 43.57 63.57 73.57 77.14]
+FrameLength =   256 , Accuracy =  [14.29 39.29 27.86 38.57 57.86 77.86 87.86 87.86]
+FrameLength =   512 , Accuracy =  [14.29 40.00 41.43 55.00 57.86 72.14 80.00 80.00]
+FrameLength =  1024 , Accuracy =  [14.29 32.86 54.29 61.43 65.00 75.71 83.57 83.57]
+FrameLength =  2048 , Accuracy =  [14.29 35.00 62.14 62.14 75.00 75.71 80.71 81.43]
+
+DSTCuttingFactor = 1.0 , WaveFilter =  db4
+FrameLength =   128 , Accuracy =  [16.43 42.86 47.86 52.86 43.57 57.14 65.00 64.29]
+FrameLength =   256 , Accuracy =  [14.29 32.14 54.29 57.14 55.71 71.43 82.14 82.14]
+FrameLength =   512 , Accuracy =  [22.86 47.86 50.71 48.57 48.57 54.29 65.00 65.71]
+FrameLength =  1024 , Accuracy =  [14.29 33.57 34.29 32.14 40.00 67.14 70.71 71.43]
+FrameLength =  2048 , Accuracy =  [25.71 15.00 20.00 47.14 27.14 45.00 64.29 64.29]
+
+DSTCuttingFactor = 1.0 , WaveFilter =  db5
+FrameLength =   128 , Accuracy =  [14.29 44.29 45.71 45.71 37.14 52.86 56.43 56.43]
+FrameLength =   256 , Accuracy =  [14.29 32.14 31.43 31.43 49.29 75.00 72.14 72.14]
+FrameLength =   512 , Accuracy =  [14.29 37.14 30.00 30.00 64.29 70.00 70.71 70.71]
+FrameLength =  1024 , Accuracy =  [14.29 36.43 31.43 32.14 40.00 52.86 55.00 55.00]
+FrameLength =  2048 , Accuracy =  [14.29 23.57 18.57 18.57 35.00 40.00 42.86 42.86]
+
+DSTCuttingFactor = 1.0 , WaveFilter =  db6
+FrameLength =   128 , Accuracy =  [14.29 34.29 39.29 45.71 30.00 61.43 69.29 70.00]
+FrameLength =   256 , Accuracy =  [14.29 37.86 64.29 66.43 36.43 63.57 62.86 62.86]
+FrameLength =   512 , Accuracy =  [14.29 31.43 57.14 68.57 41.43 46.43 52.14 52.86]
+FrameLength =  1024 , Accuracy =  [14.29 23.57 33.57 40.00 35.00 42.14 49.29 49.29]
+FrameLength =  2048 , Accuracy =  [14.29 46.43 48.57 50.71 28.57 25.00 27.14 27.14]
+
+DSTCuttingFactor = 1.0 , WaveFilter =  bior1.1
+FrameLength =   128 , Accuracy =  [14.29 37.14 46.43 62.86 60.00 63.57 70.00 70.00]
+FrameLength =   256 , Accuracy =  [14.29 61.43 70.71 80.71 83.57 89.29 94.29 94.29]
+FrameLength =   512 , Accuracy =  [14.29 49.29 73.57 80.00 87.14 87.14 90.00 90.00]
+FrameLength =  1024 , Accuracy =  [14.29 43.57 61.43 67.14 70.71 82.14 87.14 90.71]
+FrameLength =  2048 , Accuracy =  [14.29 50.00 65.00 70.71 72.14 75.71 85.00 85.71]
+
+DSTCuttingFactor = 1.0 , WaveFilter =  bior1.3
+FrameLength =   128 , Accuracy =  [14.29 37.86 46.43 54.29 55.71 58.57 68.57 72.86]
+FrameLength =   256 , Accuracy =  [14.29 44.29 68.57 74.29 73.57 78.57 86.43 88.57]
+FrameLength =   512 , Accuracy =  [14.29 24.29 57.14 57.14 78.57 71.43 73.57 77.14]
+FrameLength =  1024 , Accuracy =  [14.29 20.71 42.86 54.29 63.57 69.29 80.00 80.71]
+FrameLength =  2048 , Accuracy =  [14.29 17.14 31.43 36.43 52.86 68.57 71.43 71.43]
+
+DSTCuttingFactor = 1.0 , WaveFilter =  bior1.5
+FrameLength =   128 , Accuracy =  [14.29 31.43 47.14 52.86 50.71 53.57 72.14 75.00]
+FrameLength =   256 , Accuracy =  [14.29 35.00 64.29 61.43 70.71 67.14 82.86 85.71]
+FrameLength =   512 , Accuracy =  [14.29 22.14 43.57 47.14 69.29 72.14 73.57 74.29]
+FrameLength =  1024 , Accuracy =  [14.29 20.71 27.14 39.29 45.71 52.14 64.29 67.86]
+FrameLength =  2048 , Accuracy =  [14.29 15.71 20.00 29.29 38.57 52.14 52.14 52.86]
+
+DSTCuttingFactor = 1.0 , WaveFilter =  bior2.2
+FrameLength =   128 , Accuracy =  [14.29 40.71 40.71 50.00 51.43 60.71 74.29 75.00]
+FrameLength =   256 , Accuracy =  [14.29 37.14 54.29 62.14 64.29 68.57 83.57 84.29]
+FrameLength =   512 , Accuracy =  [14.29 58.57 57.14 80.71 70.71 81.43 84.29 85.00]
+FrameLength =  1024 , Accuracy =  [14.29 30.71 49.29 62.14 67.86 88.57 88.57 88.57]
+FrameLength =  2048 , Accuracy =  [14.29 56.43 50.00 62.86 69.29 75.71 84.29 84.29]
+
+DSTCuttingFactor = 1.0 , WaveFilter =  bior2.4
+FrameLength =   128 , Accuracy =  [14.29 35.00 25.71 33.57 55.71 66.43 77.86 79.29]
+FrameLength =   256 , Accuracy =  [14.29 37.14 56.43 60.00 53.57 62.14 80.71 81.43]
+FrameLength =   512 , Accuracy =  [14.29 35.00 55.00 71.43 69.29 78.57 79.29 80.71]
+FrameLength =  1024 , Accuracy =  [14.29 25.00 55.00 67.86 72.14 74.29 79.29 79.29]
+FrameLength =  2048 , Accuracy =  [14.29 25.71 47.86 55.71 72.86 82.86 85.00 85.00]
+
+DSTCuttingFactor = 1.0 , WaveFilter =  bior2.6
+FrameLength =   128 , Accuracy =  [14.29 27.14 22.14 32.14 52.14 67.14 77.14 77.86]
+FrameLength =   256 , Accuracy =  [14.29 34.29 50.00 61.43 65.71 62.86 81.43 82.86]
+FrameLength =   512 , Accuracy =  [14.29 40.00 41.43 48.57 61.43 70.71 74.29 75.71]
+FrameLength =  1024 , Accuracy =  [14.29 32.86 37.14 41.43 56.43 63.57 64.29 64.29]
+FrameLength =  2048 , Accuracy =  [14.29 15.71 32.14 30.00 37.14 40.71 42.86 42.86]
+
+DSTCuttingFactor = 1.0 , WaveFilter =  bior3.1
+FrameLength =   128 , Accuracy =  [14.29 37.14 44.29 47.86 60.00 60.71 60.00 62.86]
+FrameLength =   256 , Accuracy =  [14.29 47.14 51.43 63.57 72.14 77.14 81.43 80.71]
+FrameLength =   512 , Accuracy =  [14.29 38.57 72.14 72.14 79.29 81.43 81.43 81.43]
+FrameLength =  1024 , Accuracy =  [14.29 38.57 50.00 57.86 65.71 65.71 65.71 65.71]
+FrameLength =  2048 , Accuracy =  [14.29 29.29 52.86 54.29 57.86 52.14 54.29 54.29]
+
+DSTCuttingFactor = 1.0 , WaveFilter =  bior3.3
+FrameLength =   128 , Accuracy =  [14.29 42.86 45.00 55.71 59.29 57.14 60.71 62.86]
+FrameLength =   256 , Accuracy =  [14.29 51.43 65.00 75.71 83.57 87.14 90.00 90.00]
+FrameLength =   512 , Accuracy =  [14.29 45.00 60.00 75.71 81.43 90.00 90.00 90.00]
+FrameLength =  1024 , Accuracy =  [14.29 25.00 27.86 45.71 54.29 61.43 75.71 77.86]
+FrameLength =  2048 , Accuracy =  [14.29 40.71 46.43 57.14 65.00 62.86 67.14 68.57]
+
+DSTCuttingFactor = 1.0 , WaveFilter =  bior3.5
+FrameLength =   128 , Accuracy =  [14.29 47.86 42.86 52.86 53.57 59.29 63.57 65.71]
+FrameLength =   256 , Accuracy =  [14.29 50.71 69.29 73.57 73.57 82.86 92.14 92.14]
+FrameLength =   512 , Accuracy =  [14.29 42.14 64.29 80.00 68.57 82.14 85.00 86.43]
+FrameLength =  1024 , Accuracy =  [14.29 22.14 35.71 39.29 59.29 70.00 81.43 83.57]
+FrameLength =  2048 , Accuracy =  [14.29 31.43 40.00 50.71 56.43 50.00 61.43 64.29]
+
+-----------------------------------------------------------------------------------
+DSTCuttingFactor = 0.5 , WaveFilter =  db1
+FrameLength =   128 , Accuracy =  [14.29 42.86 52.86 59.29 70.00 72.14 87.14 85.71]
+FrameLength =   256 , Accuracy =  [14.29 45.00 69.29 81.43 85.71 84.29 85.71 92.86]
+FrameLength =   512 , Accuracy =  [14.29 72.14 80.71 87.14 89.29 89.29 92.86 94.29]
+FrameLength =  1024 , Accuracy =  [14.29 50.00 66.43 77.14 86.43 82.86 90.00 90.00]
+FrameLength =  2048 , Accuracy =  [14.29 31.43 63.57 65.00 80.00 88.57 91.43 95.71]
+
+DSTCuttingFactor = 0.5 , WaveFilter =  db2
+FrameLength =   128 , Accuracy =  [14.29 37.14 56.43 62.86 77.14 80.00 73.57 84.29]
+FrameLength =   256 , Accuracy =  [14.29 42.14 65.71 78.57 77.86 78.57 88.57 88.57]
+FrameLength =   512 , Accuracy =  [14.29 52.14 51.43 65.00 84.29 95.00 95.71 96.43]
+FrameLength =  1024 , Accuracy =  [14.29 55.71 77.86 82.86 75.00 80.00 80.00 83.57]
+FrameLength =  2048 , Accuracy =  [14.29 55.00 72.86 68.57 78.57 88.57 95.00 96.43]
+
+DSTCuttingFactor = 0.5 , WaveFilter =  db3
+FrameLength =   128 , Accuracy =  [14.29 30.71 35.00 47.86 57.14 67.86 87.86 89.29]
+FrameLength =   256 , Accuracy =  [14.29 45.00 55.71 71.43 65.00 74.29 84.29 85.71]
+FrameLength =   512 , Accuracy =  [14.29 45.00 30.00 50.00 68.57 75.71 94.29 94.29]
+FrameLength =  1024 , Accuracy =  [14.29 41.43 51.43 69.29 67.86 80.00 84.29 85.71]
+FrameLength =  2048 , Accuracy =  [14.29 38.57 64.29 67.86 70.00 78.57 87.14 87.14]
+
+DSTCuttingFactor = 0.5 , WaveFilter =  db4
+FrameLength =   128 , Accuracy =  [28.57 41.43 46.43 44.29 42.14 46.43 53.57 51.43]
+FrameLength =   256 , Accuracy =  [14.29 49.29 42.86 57.86 43.57 74.29 79.29 80.00]
+FrameLength =   512 , Accuracy =  [14.29 46.43 67.14 63.57 54.29 75.00 87.14 87.14]
+FrameLength =  1024 , Accuracy =  [22.86 34.29 41.43 47.14 38.57 54.29 71.43 71.43]
+FrameLength =  2048 , Accuracy =  [27.14 38.57 41.43 35.71 32.14 63.57 67.86 67.86]
+
+DSTCuttingFactor = 0.5 , WaveFilter =  db5
+FrameLength =   128 , Accuracy =  [20.00 25.71 28.57 28.57 26.43 47.86 72.86 71.43]
+FrameLength =   256 , Accuracy =  [14.29 40.00 45.71 45.71 45.00 57.86 73.57 75.00]
+FrameLength =   512 , Accuracy =  [14.29 40.71 35.71 35.71 56.43 91.43 95.71 95.71]
+FrameLength =  1024 , Accuracy =  [14.29 32.86 28.57 28.57 62.14 67.14 70.00 70.71]
+FrameLength =  2048 , Accuracy =  [14.29 33.57 32.86 32.86 34.29 61.43 62.14 61.43]
+
+DSTCuttingFactor = 0.5 , WaveFilter =  db6
+FrameLength =   128 , Accuracy =  [14.29 27.86 31.43 37.14 38.57 54.29 56.43 56.43]
+FrameLength =   256 , Accuracy =  [14.29 40.00 60.71 67.86 38.57 66.43 76.43 77.86]
+FrameLength =   512 , Accuracy =  [14.29 42.86 71.43 72.14 54.29 67.14 67.14 67.14]
+FrameLength =  1024 , Accuracy =  [14.29 37.14 58.57 67.14 37.86 37.14 37.86 37.86]
+FrameLength =  2048 , Accuracy =  [14.29 30.71 43.57 46.43 31.43 42.14 51.43 52.14]
+
+DSTCuttingFactor = 0.5 , WaveFilter =  bior1.1
+FrameLength =   128 , Accuracy =  [14.29 42.86 52.86 59.29 70.00 72.14 87.14 85.71]
+FrameLength =   256 , Accuracy =  [14.29 45.00 69.29 81.43 85.71 84.29 85.71 92.86]
+FrameLength =   512 , Accuracy =  [14.29 72.14 80.71 87.14 89.29 89.29 92.86 94.29]
+FrameLength =  1024 , Accuracy =  [14.29 50.00 66.43 77.14 86.43 82.86 90.00 90.00]
+FrameLength =  2048 , Accuracy =  [14.29 31.43 63.57 65.00 80.00 88.57 91.43 95.71]
+
+DSTCuttingFactor = 0.5 , WaveFilter =  bior1.3
+FrameLength =   128 , Accuracy =  [14.29 45.71 48.57 60.71 67.14 75.00 86.43 86.43]
+FrameLength =   256 , Accuracy =  [14.29 53.57 77.86 76.43 74.29 78.57 87.14 92.14]
+FrameLength =   512 , Accuracy =  [14.29 39.29 72.86 74.29 76.43 74.29 85.71 87.86]
+FrameLength =  1024 , Accuracy =  [14.29 42.86 58.57 60.00 86.43 82.86 89.29 91.43]
+FrameLength =  2048 , Accuracy =  [14.29 39.29 58.57 70.00 70.00 91.43 94.29 95.00]
+
+DSTCuttingFactor = 0.5 , WaveFilter =  bior1.5
+FrameLength =   128 , Accuracy =  [14.29 37.86 50.00 60.00 67.14 80.00 85.00 87.86]
+FrameLength =   256 , Accuracy =  [14.29 57.86 83.57 75.00 71.43 75.00 86.43 94.29]
+FrameLength =   512 , Accuracy =  [14.29 30.00 70.71 63.57 68.57 75.71 87.14 90.71]
+FrameLength =  1024 , Accuracy =  [14.29 45.71 61.43 52.14 87.86 87.14 85.71 81.43]
+FrameLength =  2048 , Accuracy =  [14.29 39.29 52.14 62.14 74.29 77.86 85.71 79.29]
+
+DSTCuttingFactor = 0.5 , WaveFilter =  bior2.2
+FrameLength =   128 , Accuracy =  [14.29 27.86 32.86 50.71 63.57 77.86 81.43 82.86]
+FrameLength =   256 , Accuracy =  [14.29 50.71 60.71 66.43 65.71 75.71 81.43 84.29]
+FrameLength =   512 , Accuracy =  [14.29 47.14 54.29 79.29 77.14 78.57 88.57 92.14]
+FrameLength =  1024 , Accuracy =  [14.29 55.00 65.00 85.71 82.86 85.71 84.29 85.71]
+FrameLength =  2048 , Accuracy =  [14.29 25.00 50.71 70.71 65.00 90.71 92.86 95.71]
+
+DSTCuttingFactor = 0.5 , WaveFilter =  bior2.4
+FrameLength =   128 , Accuracy =  [14.29 20.00 36.43 53.57 68.57 79.29 83.57 87.86]
+FrameLength =   256 , Accuracy =  [14.29 45.71 50.71 55.71 57.14 75.71 83.57 85.00]
+FrameLength =   512 , Accuracy =  [14.29 51.43 53.57 72.86 72.86 79.29 87.86 91.43]
+FrameLength =  1024 , Accuracy =  [14.29 52.86 63.57 75.00 72.86 82.86 82.86 83.57]
+FrameLength =  2048 , Accuracy =  [14.29 35.00 67.86 77.86 80.00 80.00 86.43 85.71]
+
+DSTCuttingFactor = 0.5 , WaveFilter =  bior2.6
+FrameLength =   128 , Accuracy =  [14.29 29.29 37.14 53.57 74.29 81.43 85.00 87.86]
+FrameLength =   256 , Accuracy =  [14.29 33.57 48.57 45.71 53.57 77.86 83.57 85.00]
+FrameLength =   512 , Accuracy =  [14.29 47.14 51.43 65.71 71.43 67.14 84.29 86.43]
+FrameLength =  1024 , Accuracy =  [14.29 31.43 53.57 63.57 69.29 80.00 77.86 81.43]
+FrameLength =  2048 , Accuracy =  [14.29 30.00 37.86 42.86 60.71 70.00 74.29 77.86]
+
+DSTCuttingFactor = 0.5 , WaveFilter =  bior3.1
+FrameLength =   128 , Accuracy =  [14.29 32.14 27.14 42.14 49.29 51.43 61.43 69.29]
+FrameLength =   256 , Accuracy =  [14.29 39.29 60.00 70.71 75.00 77.14 79.29 86.43]
+FrameLength =   512 , Accuracy =  [14.29 47.14 62.14 72.86 84.29 87.14 92.14 90.71]
+FrameLength =  1024 , Accuracy =  [14.29 35.71 40.71 55.71 69.29 68.57 70.00 74.29]
+FrameLength =  2048 , Accuracy =  [14.29 35.71 40.71 52.86 62.86 61.43 70.00 75.00]
+
+DSTCuttingFactor = 0.5 , WaveFilter =  bior3.3
+FrameLength =   128 , Accuracy =  [14.29 46.43 40.71 52.86 62.86 61.43 73.57 78.57]
+FrameLength =   256 , Accuracy =  [14.29 42.14 67.14 73.57 76.43 82.14 88.57 87.14]
+FrameLength =   512 , Accuracy =  [14.29 55.00 83.57 92.86 92.86 91.43 93.57 97.14] <-- Best Results
+FrameLength =  1024 , Accuracy =  [14.29 32.14 45.00 58.57 71.43 79.29 81.43 84.29]
+FrameLength =  2048 , Accuracy =  [14.29 36.43 52.86 52.86 57.14 62.86 71.43 75.71]
+
+DSTCuttingFactor = 0.5 , WaveFilter =  bior3.5
+FrameLength =   128 , Accuracy =  [14.29 42.14 50.00 56.43 64.29 65.71 75.71 83.57]
+FrameLength =   256 , Accuracy =  [14.29 50.71 74.29 80.00 79.29 84.29 87.14 88.57]
+FrameLength =   512 , Accuracy =  [14.29 51.43 78.57 84.29 82.14 85.71 88.57 93.57]
+FrameLength =  1024 , Accuracy =  [14.29 32.14 60.71 72.14 75.71 80.71 85.71 87.14]
+FrameLength =  2048 , Accuracy =  [14.29 40.71 56.43 57.14 72.86 77.86 80.00 85.00]
+
+-----------------------------------------------------------------------------------
+DSTCuttingFactor = 0.25 , WaveFilter =  db1
+FrameLength =   128 , Accuracy =  [14.29 32.86 45.00 53.57 66.43 70.71 69.29 81.43]
+FrameLength =   256 , Accuracy =  [14.29 51.43 61.43 74.29 77.14 82.14 88.57 88.57]
+FrameLength =   512 , Accuracy =  [14.29 46.43 77.86 85.71 84.29 91.43 90.00 95.71]
+FrameLength =  1024 , Accuracy =  [14.29 65.00 79.29 80.71 88.57 85.00 89.29 95.71]
+FrameLength =  2048 , Accuracy =  [14.29 39.29 67.14 87.14 90.71 85.71 90.00 91.43]
+
+DSTCuttingFactor = 0.25 , WaveFilter =  db2
+FrameLength =   128 , Accuracy =  [14.29 35.71 46.43 57.86 64.29 65.71 67.86 72.86]
+FrameLength =   256 , Accuracy =  [14.29 55.00 58.57 64.29 74.29 82.14 80.71 83.57]
+FrameLength =   512 , Accuracy =  [14.29 46.43 73.57 77.14 80.00 85.00 90.71 92.86]
+FrameLength =  1024 , Accuracy =  [14.29 50.00 55.71 72.86 78.57 97.86 97.14 98.57]
+FrameLength =  2048 , Accuracy =  [14.29 56.43 73.57 77.86 73.57 77.86 80.00 86.43]
+
+DSTCuttingFactor = 0.25 , WaveFilter =  db3
+FrameLength =   128 , Accuracy =  [14.29 34.29 32.86 46.43 51.43 51.43 63.57 80.71]
+FrameLength =   256 , Accuracy =  [14.29 33.57 42.14 54.29 62.86 67.86 88.57 88.57]
+FrameLength =   512 , Accuracy =  [14.29 52.86 62.14 74.29 67.14 80.00 88.57 90.00]
+FrameLength =  1024 , Accuracy =  [14.29 55.71 43.57 72.14 80.00 78.57 90.00 90.00]
+FrameLength =  2048 , Accuracy =  [14.29 40.71 54.29 76.43 72.14 78.57 82.14 82.86]
+
+DSTCuttingFactor = 0.25 , WaveFilter =  db4
+FrameLength =   128 , Accuracy =  [25.71 35.00 35.00 31.43 29.29 44.29 61.43 62.14]
+FrameLength =   256 , Accuracy =  [28.57 53.57 55.00 47.14 48.57 57.86 61.43 63.57]
+FrameLength =   512 , Accuracy =  [14.29 48.57 54.29 60.71 46.43 79.29 78.57 78.57]
+FrameLength =  1024 , Accuracy =  [14.29 50.00 72.86 61.43 65.71 75.71 84.29 84.29]
+FrameLength =  2048 , Accuracy =  [14.29 41.43 50.00 57.14 36.43 58.57 67.86 69.29]
+
+DSTCuttingFactor = 0.25 , WaveFilter =  db5
+FrameLength =   128 , Accuracy =  [14.29 27.14 25.00 25.00 33.57 29.29 45.00 44.29]
+FrameLength =   256 , Accuracy =  [20.00 28.57 37.14 37.14 26.43 52.86 72.86 72.86]
+FrameLength =   512 , Accuracy =  [14.29 50.71 55.00 54.29 51.43 63.57 74.29 74.29]
+FrameLength =  1024 , Accuracy =  [14.29 40.71 42.86 50.00 60.00 90.00 94.29 95.71]
+FrameLength =  2048 , Accuracy =  [14.29 32.14 40.71 40.71 59.29 62.14 67.14 67.14]
+
+DSTCuttingFactor = 0.25 , WaveFilter =  db6
+FrameLength =   128 , Accuracy =  [14.29 40.71 40.00 45.71 17.14 32.86 47.14 47.86]
+FrameLength =   256 , Accuracy =  [14.29 40.00 36.43 43.57 39.29 46.43 62.14 62.14]
+FrameLength =   512 , Accuracy =  [14.29 42.86 60.00 67.86 42.14 70.71 80.00 80.00]
+FrameLength =  1024 , Accuracy =  [14.29 41.43 64.29 68.57 54.29 70.00 71.43 71.43]
+FrameLength =  2048 , Accuracy =  [14.29 35.00 64.29 65.00 29.29 53.57 57.14 57.86]
+
+DSTCuttingFactor = 0.25 , WaveFilter =  bior1.1
+FrameLength =   128 , Accuracy =  [14.29 32.86 45.00 53.57 66.43 70.71 69.29 81.43]
+FrameLength =   256 , Accuracy =  [14.29 51.43 61.43 74.29 77.14 82.14 88.57 88.57]
+FrameLength =   512 , Accuracy =  [14.29 46.43 77.86 85.71 84.29 91.43 90.00 95.71]
+FrameLength =  1024 , Accuracy =  [14.29 65.00 79.29 80.71 88.57 85.00 89.29 95.71]
+FrameLength =  2048 , Accuracy =  [14.29 39.29 67.14 87.14 90.71 85.71 90.00 91.43]
+
+DSTCuttingFactor = 0.25 , WaveFilter =  bior1.3
+FrameLength =   128 , Accuracy =  [14.29 38.57 47.14 53.57 62.86 67.14 71.43 79.29]
+FrameLength =   256 , Accuracy =  [14.29 56.43 65.71 81.43 82.86 84.29 90.00 87.14]
+FrameLength =   512 , Accuracy =  [14.29 53.57 75.71 72.86 70.00 81.43 85.71 94.29]
+FrameLength =  1024 , Accuracy =  [14.29 42.86 80.71 78.57 82.86 81.43 87.14 95.71]
+FrameLength =  2048 , Accuracy =  [14.29 42.14 61.43 60.00 81.43 83.57 90.00 90.00]
+
+DSTCuttingFactor = 0.25 , WaveFilter =  bior1.5
+FrameLength =   128 , Accuracy =  [14.29 40.71 49.29 54.29 62.86 67.86 70.71 80.00]
+FrameLength =   256 , Accuracy =  [14.29 56.43 65.00 80.00 81.43 82.14 90.00 87.14]
+FrameLength =   512 , Accuracy =  [14.29 45.71 74.29 63.57 62.86 82.86 81.43 91.43]
+FrameLength =  1024 , Accuracy =  [14.29 32.86 69.29 72.86 82.86 77.14 86.43 92.86]
+FrameLength =  2048 , Accuracy =  [14.29 38.57 59.29 52.14 77.14 82.14 84.29 82.14]
+
+DSTCuttingFactor = 0.25 , WaveFilter =  bior2.2
+FrameLength =   128 , Accuracy =  [14.29 31.43 50.00 60.00 64.29 67.14 70.71 75.71]
+FrameLength =   256 , Accuracy =  [14.29 27.14 42.86 61.43 70.00 81.43 81.43 84.29]
+FrameLength =   512 , Accuracy =  [14.29 44.29 53.57 70.00 70.00 85.71 84.29 88.57]
+FrameLength =  1024 , Accuracy =  [14.29 43.57 64.29 73.57 77.86 82.86 90.00 92.86]
+FrameLength =  2048 , Accuracy =  [14.29 54.29 72.86 80.00 77.86 84.29 85.71 88.57]
+
+DSTCuttingFactor = 0.25 , WaveFilter =  bior2.4
+FrameLength =   128 , Accuracy =  [14.29 29.29 52.14 64.29 66.43 68.57 72.86 75.00]
+FrameLength =   256 , Accuracy =  [14.29 22.14 40.00 62.14 70.00 79.29 84.29 88.57]
+FrameLength =   512 , Accuracy =  [14.29 45.71 44.29 65.00 68.57 84.29 85.71 91.43]
+FrameLength =  1024 , Accuracy =  [14.29 45.71 60.00 71.43 72.86 80.00 85.71 87.86]
+FrameLength =  2048 , Accuracy =  [14.29 58.57 70.71 75.00 72.86 80.00 80.00 82.14]
+
+DSTCuttingFactor = 0.25 , WaveFilter =  bior2.6
+FrameLength =   128 , Accuracy =  [14.29 28.57 54.29 62.86 67.86 67.14 72.86 74.29]
+FrameLength =   256 , Accuracy =  [14.29 32.86 42.14 65.71 75.71 78.57 84.29 88.57]
+FrameLength =   512 , Accuracy =  [14.29 37.86 48.57 58.57 67.14 84.29 85.71 91.43]
+FrameLength =  1024 , Accuracy =  [14.29 41.43 61.43 72.14 68.57 72.86 80.00 84.29]
+FrameLength =  2048 , Accuracy =  [14.29 41.43 57.14 64.29 72.86 78.57 77.86 80.71]
+
+DSTCuttingFactor = 0.25 , WaveFilter =  bior3.1
+FrameLength =   128 , Accuracy =  [14.29 14.29 42.86 52.14 52.86 51.43 55.00 62.14]
+FrameLength =   256 , Accuracy =  [14.29 37.86 47.14 44.29 57.14 59.29 70.71 74.29]
+FrameLength =   512 , Accuracy =  [14.29 38.57 65.00 82.86 87.86 87.14 84.29 87.14]
+FrameLength =  1024 , Accuracy =  [14.29 38.57 53.57 65.71 70.00 75.71 92.86 90.00]
+FrameLength =  2048 , Accuracy =  [14.29 29.29 35.00 47.86 61.43 61.43 75.71 77.14]
+
+DSTCuttingFactor = 0.25 , WaveFilter =  bior3.3
+FrameLength =   128 , Accuracy =  [14.29 33.57 42.86 54.29 63.57 64.29 62.86 73.57]
+FrameLength =   256 , Accuracy =  [14.29 48.57 56.43 56.43 67.14 67.14 80.00 85.71]
+FrameLength =   512 , Accuracy =  [14.29 53.57 77.14 80.00 82.86 91.43 92.86 91.43]
+FrameLength =  1024 , Accuracy =  [14.29 45.00 80.00 88.57 90.00 88.57 94.29 96.43]
+FrameLength =  2048 , Accuracy =  [14.29 30.00 55.71 64.29 80.71 82.14 87.14 85.71]
+
+DSTCuttingFactor = 0.25 , WaveFilter =  bior3.5
+FrameLength =   128 , Accuracy =  [14.29 35.00 43.57 52.14 60.00 60.00 61.43 71.43]
+FrameLength =   256 , Accuracy =  [14.29 55.71 63.57 74.29 75.00 81.43 87.86 90.00]
+FrameLength =   512 , Accuracy =  [14.29 56.43 78.57 83.57 80.00 85.71 88.57 95.00]
+FrameLength =  1024 , Accuracy =  [14.29 45.00 67.86 78.57 78.57 86.43 90.00 92.86]
+FrameLength =  2048 , Accuracy =  [14.29 38.57 72.86 70.00 82.14 82.86 86.43 85.71]
+
+-----------------------------------------------------------------------------------
+
